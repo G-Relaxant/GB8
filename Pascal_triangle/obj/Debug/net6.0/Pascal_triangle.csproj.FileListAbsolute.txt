@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\GB8\Pascal_triangle\bin\Debug\net6.0\Pascal_triangle.exe
+C:\Users\user\Desktop\GB8\Pascal_triangle\bin\Debug\net6.0\Pascal_triangle.deps.json
+C:\Users\user\Desktop\GB8\Pascal_triangle\bin\Debug\net6.0\Pascal_triangle.runtimeconfig.json
+C:\Users\user\Desktop\GB8\Pascal_triangle\bin\Debug\net6.0\Pascal_triangle.dll
+C:\Users\user\Desktop\GB8\Pascal_triangle\bin\Debug\net6.0\Pascal_triangle.pdb
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.AssemblyInfo.cs
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.dll
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\refint\Pascal_triangle.dll
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.pdb
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\Pascal_triangle.genruntimeconfig.cache
+C:\Users\user\Desktop\GB8\Pascal_triangle\obj\Debug\net6.0\ref\Pascal_triangle.dll
