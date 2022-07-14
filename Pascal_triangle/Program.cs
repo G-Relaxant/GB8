@@ -1,6 +1,48 @@
 ﻿
-// Вариант из семинара
-// Корректно отображает первые 5 строк
+// Равнобедренный треугольник Паскаля от Сергея Камянецкого
+
+int row = 9;
+const int cellWidth = 3;
+int[,] triangle = new int[row, row];
+FillTriangle();
+PrintTriangle();
+void FillTriangle()
+{
+    for(int i = 0; i < row; i++)
+    {
+        triangle[i, 0] = 1;
+        triangle[i, i] = 1;
+    }
+    for(int i = 2; i < row; i++)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            triangle[i, j] = 
+                triangle[i - 1, j - 1] + triangle[i - 1, j];
+        }
+    }
+}
+void PrintTriangle()
+{
+    int col = cellWidth * row;
+    for(int i = 0; i < row; i++)
+    {
+        for(int j = 0; j <= i; j++)
+        {
+            Console.SetCursorPosition(col, i + 1);
+            if(triangle[i, j] != 0)
+                Console.Write($"{triangle[i, j],cellWidth}");
+            col += cellWidth * 2;
+        }
+        col = cellWidth * row - cellWidth * (i + 1);
+        Console.WriteLine();
+    }
+}
+
+
+
+// Вариант из семинара, корректно отображает первые 5 строк
+/*
 int y = 5;
 int x = 2 * y - 1;
 int [,] triangle = new int[y, x];
@@ -88,3 +130,4 @@ void PrintTriangle(int [,] a)
         Console.WriteLine();
     }
 }
+*/
